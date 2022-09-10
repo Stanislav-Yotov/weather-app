@@ -3,11 +3,16 @@ import WeatherTop from "./components/Weather/WeatherTop";
 import SearchBar from "./components/SearchBar";
 
 function App() {
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=Vratsa&appid=7353222a869376e12fb1f3204590cae3`;
 
   return (
-    <div className="app">
-      
+    <div className='app'>
+      <div className='container'>
+        <WeatherTop
+          city={'Vratsa'}
+          temp={23}
+          description={'Clouds'} />
+        <WeatherBot feels={22} humidity={50} wind={24} />
+      </div>
     </div>
   );
 }

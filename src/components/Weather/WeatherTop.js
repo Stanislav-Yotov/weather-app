@@ -1,15 +1,19 @@
+import Location from "./Location/Location";
+import Temperature from "./Temperature/Temperature";
+
 function WeatherTop(props) {
     return (
-        <div className='container'>
             <div className='top'>
-                <div className='location'>
-                    <p>Vratsa</p>
-                </div>
-                <div className='temp'>
-                    <p>23°C</p>
+                <Location>
+                    <p>{props.city}</p>
+                </Location>
+                <Temperature>
+                    <h1>{props.temp}°C</h1>
+                </Temperature>
+                <div className='description'>
+                    <p>{props.description}</p>
                 </div>
             </div>
-        </div>
     );
 }
 
