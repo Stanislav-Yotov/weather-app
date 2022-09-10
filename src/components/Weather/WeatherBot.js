@@ -6,15 +6,15 @@ function WeatherBot(props) {
     return (
         <div className='bottom'>
             <Feels>
-                <p>{props.feels}</p>
+                {props.feels}
                 <p className='bold'>Feels Like</p>
             </Feels>
             <Humidity>
-                <p>{props.humidity}</p>
+                {props.humidity}
                 <p className='bold'>Humidity</p>
             </Humidity>
             <Wind>
-                <p>{props.wind}</p>
+                {props.wind}
                 <p className='bold'>Wind</p>
             </Wind>
         </div>

@@ -5,13 +5,13 @@ function WeatherTop(props) {
     return (
             <div className='top'>
                 <Location>
-                    <p>{props.city}</p>
+                    {props.city}
                 </Location>
                 <Temperature>
-                    <h1>{props.temp}</h1>
+                    {props.temp}
                 </Temperature>
                 <div className='description'>
-                    <p>{props.description}</p>
+                    {props.description}
                 </div>
             </div>
     );

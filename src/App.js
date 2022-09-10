@@ -15,7 +15,6 @@ function App() {
       const response = await fetch(url);
       const responseData = await response.json();
       setData(responseData);
-      console.log(responseData);
       setLocation('');
     }
   }
