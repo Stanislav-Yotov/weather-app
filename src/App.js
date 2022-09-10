@@ -42,12 +42,12 @@ function App() {
           city={data.name}
           temp={temperature}
           description={description} />
+
         {data.name !== undefined &&
           <WeatherBot
             feels={feelsLike}
             humidity={humidityData}
             wind={windData} />}
-
       </div>
     </div>
   );
