@@ -1,0 +1,1 @@
+A simple weather app, created with React.js. I am using the API from www.openweathermap.org, which is really great, because it has almost every city in the world.
