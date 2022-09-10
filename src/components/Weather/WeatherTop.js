@@ -8,7 +8,7 @@ function WeatherTop(props) {
                     <p>{props.city}</p>
                 </Location>
                 <Temperature>
-                    <h1>{props.temp}°C</h1>
+                    <h1>{props.temp}</h1>
                 </Temperature>
                 <div className='description'>
                     <p>{props.description}</p>
