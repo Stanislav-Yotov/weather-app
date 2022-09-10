@@ -7,6 +7,7 @@ function App() {
   return (
     <div className='app'>
       <div className='container'>
+      <SearchBar />
         <WeatherTop
           city={'Vratsa'}
           temp={23}
